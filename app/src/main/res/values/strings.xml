@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Quizee</string>
+    <string name="menu_string">  MENU  </string>
+    <string name="new_game">   NOWA GRA   </string>
+    <string name="get_points">Zbieraj punkty</string>
+    <string name="info_losowanie">Aby wybrać kategorie
+    pomachaj telefonem lub naciśnij przycis losuj</string>
+    <string name="get_points_big">ZBIERAJ PUNKTY</string>
+    <string name="info_get_points">Aby zdobyć punkty
+    musisz wybrać się na spacer :)</string>
+    <string name="next">DALEJ</string>
+    <string name="summary">PODSUMOWANIE</string>
+    <string name="correct_answer_text">DOBRE ODPOWIEDZI </string>
+    <string name="bad_answer_text">ZŁE ODPOWIEDZI</string>
+    <string name="enter_question">Pytanie</string>
+    <string name="enter_answer">Odpowiedź</string>
+    <string name="enter_category">Kategoria</string>
+    <string name="enter_correct_answer">Prawidłowa odpowiedź</string>
+    <string name="add">Dodaj pytanie do bazy</string>
+    <string name="step_number_label">Liczba kroków</string>
+    <string name="point_number_label">Liczba punktów</string>
+    <string name="your_points">Twoje punkty</string>
+    <string name="buyAnswer">   Kup odpowiedź (500 pkt)   </string>
+    <string name="earned_points">Zdobyte punkty</string>
+    <string name="draw">   Losuj kategorie   </string>
+    <string name="unlock">Odblokuj</string>
+    <string name="bonus_info">Masz za mało punktów</string>
+</resources>

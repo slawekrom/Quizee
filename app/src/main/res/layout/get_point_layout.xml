@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:textColor="@color/plain_text"
+        android:id="@+id/get_points_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/get_points_big"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/menu_label_size"
+        />
+    <TextView
+        android:textColor="@color/plain_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/get_points_label"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:textSize="@dimen/plain_text_size"
+        android:id="@+id/info_get_points"
+        android:text="@string/info_get_points"
+        />
+
+    <TextView
+        android:textColor="@color/plain_text"
+        android:id="@+id/number_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_get_points"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/step_number_label"
+        android:textSize="@dimen/plain_text_size" />
+
+    <TextView
+        android:textColor="@color/plain_text"
+        android:id="@+id/steps_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number_label"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center_horizontal"
+        android:text="0"
+        android:textSize="@dimen/menu_label_size" />
+
+    <TextView
+        android:textColor="@color/plain_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/plain_text_size"
+        android:id="@+id/points_label"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_below="@id/steps_number"
+        android:text="@string/point_number_label"/>
+
+    <TextView
+        android:textColor="@color/plain_text"
+        android:id="@+id/points_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/points_label"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/menu_label_size" />
+
+</RelativeLayout>

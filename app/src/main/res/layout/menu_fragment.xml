@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/menu_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/labels_color"
+        android:text="@string/menu_string"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/menu_label_size"
+        />
+
+    <Button
+        android:id="@+id/new_game_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/menu_label"
+        android:layout_marginTop="@dimen/margin_below_menu"
+        android:text="@string/new_game"
+        style="@style/buttonStyle"/>
+
+    <Button
+        android:id="@+id/get_points_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/new_game_button"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/get_points"
+        style="@style/buttonStyle"/>
+
+    <Button
+        android:id="@+id/add_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/get_points_button"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/add"
+        style="@style/buttonStyle"/>
+</RelativeLayout>

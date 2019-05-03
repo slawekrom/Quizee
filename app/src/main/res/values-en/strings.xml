@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quizee</string>
+    <string name="menu_string">MENU</string>
+    <string name="new_game">NEW GAME</string>
+    <string name="get_points">GET POINTS</string>
+    <string name="info_losowanie">Shake your phone or click draw button to draw category</string>
+    <string name="get_points_big">GET POINTS</string>
+    <string name="info_get_points">Go for walk to get points</string>
+    <string name="next">NEXT</string>
+    <string name="summary">SUMMARY</string>
+    <string name="correct_answer_text">Correct answers</string>
+    <string name="bad_answer_text">Bad answers</string>
+    <string name="enter_question">Question</string>
+    <string name="enter_answer">Answer</string>
+    <string name="enter_category">Category</string>
+    <string name="enter_correct_answer">Correct Answer</string>
+    <string name="add">Add question to database</string>
+    <string name="step_number_label">Number of steps</string>
+    <string name="point_number_label">Number of points</string>
+    <string name="your_points">Your points</string>
+    <string name="buyAnswer">Buy answer (500 points)</string>
+    <string name="earned_points">Earned points</string>
+    <string name="draw">Draw category</string>
+    <string name="unlock">Unlock</string>
+    <string name="bonus_info">You don`t have enough points</string>
+</resources>

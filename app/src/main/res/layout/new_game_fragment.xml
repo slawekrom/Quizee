@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/plain_text"
+        android:id="@+id/new_game_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/new_game"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/menu_label_size"
+        />
+    <TextView
+        android:textColor="@color/plain_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_game_label"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:textSize="@dimen/plain_text_size"
+        android:id="@+id/info_ngf"
+        android:text="@string/info_losowanie"
+        />
+
+    <TextView
+        android:id="@+id/your_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_ngf"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/your_points"
+        android:textColor="@color/plain_text"
+        android:textSize="@dimen/plain_text_size" />
+    <TextView
+        android:textColor="@color/plain_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:id="@+id/your_points_number"
+        android:layout_below="@id/your_points"
+        android:textSize="@dimen/menu_label_size"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_below="@id/your_points_number"
+        android:id="@+id/draw_button"
+        style="@style/buttonStyle"
+        android:text="@string/draw"
+        />
+
+
+</RelativeLayout>
